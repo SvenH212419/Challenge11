@@ -4,5 +4,5 @@ y = int(input('Hoogte? '))
 for i in range(y):
     str = ""
     for j in range(x):
-        str = str + "steen "
+        str = str + "Steen  "
     print(str)
