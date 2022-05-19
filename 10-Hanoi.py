@@ -1,11 +1,11 @@
 def hanoi(n, start, help, end):
 
     if n == 1:
-        print(f"Move {start} to {end}.")
+        print(f"Move disc {start} to {end}.")
         return
 
     hanoi(n-1, start, end, help)
-    print(f"Move {start} to {end}.")
+    print(f"Move disc {start} to {end}.")
     hanoi(n-1, help, start, end)
 
 while True:
